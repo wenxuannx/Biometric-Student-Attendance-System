@@ -18,12 +18,13 @@ This repository contains all regulated-revision requirements and requirements mo
 ```
 /
 ├── requirements/
-│   ├── bizops-requirements.md
-│   └── technical-requirements.md
+│   ├── business-operations.md
+│   └── technical.md
 ├── requirement-models/
 │   ├── paper-napkin-model.jpg
-│   ├── context-diagram.png
+│   ├── context-diagram.pdf
 │   ├── data-dictionary.md
+│   ├── ERD.pdf
 │   ├── gantt-chart.png
 │   └── wireframes/
 │       ├── parent-mobile-app/
@@ -85,6 +86,13 @@ A revised data dictionary updated after clarification sessions. Contains nine ta
 | C.7 | NotificationLog (NEW) |
 | C.8 | BiometricScan (NEW) |
 | C.9 | ExternalSystemLog (NEW) |
+
+---
+
+## ERD (Entity Relationship Diagram)
+File: `requirement-models/ERD.pdf`
+
+A full Entity Relationship Diagram for the Biometric Student Attendance Management System using crow's foot notation. Covers all nine data entities and their relationships. ExternalSystemLog is a standalone audit log with no enforced FK relationships. The diagram reflects the revised Data Dictionary (Tables C.1 to C.9).
 
 ---
 
